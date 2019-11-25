@@ -1,4 +1,4 @@
-package com.paper.boat.dream;
+package com.paper.boat.tv;
 
 import org.junit.Test;
 

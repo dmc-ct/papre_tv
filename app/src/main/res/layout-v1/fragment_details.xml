@@ -13,7 +13,7 @@
         android:orientation="vertical">
 
         <!--ftl_single_cancelable单选取消-->
-        <com.paper.boat.zrdx.view.layout.FlowTagLayout
+        <com.paper.boat.tv.view.layout.FlowTagLayout
             android:id="@+id/flowlayout_normal_select"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -26,7 +26,7 @@
             android:layout_marginLeft="@dimen/dp_10"
             tools:ignore="RtlHardcoded" />
 
-        <com.paper.boat.zrdx.widget.text.SpannableFoldTextView
+        <com.paper.boat.tv.widget.text.SpannableFoldTextView
             android:id="@+id/fold_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

@@ -16,7 +16,7 @@
 
     <fragment
         android:id="@+id/fragment"
-        android:name="com.paper.boat.zrdx.ui.actvity.defray.ExternalFragment"
+        android:name="com.paper.boat.tv.ui.actvity.defray.ExternalFragment"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         tools:layout="@layout/pay_external" />

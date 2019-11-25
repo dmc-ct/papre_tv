@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.paper.boat.zrdx.ui.actvity.login.GuideActivity">
+    tools:context="com.paper.boat.tv.ui.actvity.login.GuideActivity">
 
     <cn.bingoogolapple.bgabanner.BGAGuideLinkageLayout
         android:layout_width="match_parent"

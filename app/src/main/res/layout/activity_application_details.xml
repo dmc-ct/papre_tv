@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.paper.boat.zrdx.ui.actvity.apply.ApplicationDetailsActivity">
+    tools:context="com.paper.boat.tv.ui.actvity.apply.ApplicationDetailsActivity">
     <!--协调员布局-->
 
     <!--应用栏布局-->
@@ -26,7 +26,7 @@
         <!-- 该视图将正常运行，没有折叠行为。 none -->
         <!-- 视图将固定在适当的位置。 pin-->
         <!-- 视图将以视差方式滚动。请参见layout_collapseParallaxMultiplier属性以更改乘数。 parallax-->
-        <com.paper.boat.zrdx.widget.XCollapsingToolbarLayout
+        <com.paper.boat.tv.widget.XCollapsingToolbarLayout
             android:id="@+id/tool_bar"
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp_220"
@@ -62,7 +62,7 @@
                 app:title="应用详情"
                 app:titleColor="@color/white" />
 
-        </com.paper.boat.zrdx.widget.XCollapsingToolbarLayout>
+        </com.paper.boat.tv.widget.XCollapsingToolbarLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"

@@ -72,21 +72,21 @@
         android:paddingTop="15dp"
         android:paddingBottom="15dp">
 
-        <com.paper.boat.zrdx.widget.LoopView
+        <com.paper.boat.tv.widget.LoopView
             android:id="@+id/lv_date_year"
             android:layout_width="0px"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             app:lv_textSize="20sp" />
 
-        <com.paper.boat.zrdx.widget.LoopView
+        <com.paper.boat.tv.widget.LoopView
             android:id="@+id/lv_date_month"
             android:layout_width="0px"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             app:lv_textSize="20sp" />
 
-        <com.paper.boat.zrdx.widget.LoopView
+        <com.paper.boat.tv.widget.LoopView
             android:id="@+id/lv_date_day"
             android:layout_width="0px"
             android:layout_height="wrap_content"

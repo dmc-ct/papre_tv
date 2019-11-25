@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context="com.paper.boat.zrdx.ui.actvity.login.LoginActivity">
+    tools:context="com.paper.boat.tv.ui.actvity.login.LoginActivity">
 
     <com.hjq.bar.TitleBar
         android:id="@+id/title"
@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <com.paper.boat.zrdx.view.edit.ClearEditText
+        <com.paper.boat.tv.view.edit.ClearEditText
             android:id="@+id/et_login_phone"
             style="@style/EditTextStyle"
             android:layout_width="match_parent"
@@ -49,7 +49,7 @@
             android:layout_marginLeft="40dp"
             android:layout_marginRight="40dp" />
 
-        <com.paper.boat.zrdx.view.edit.PasswordEditText
+        <com.paper.boat.tv.view.edit.PasswordEditText
             android:id="@+id/et_login_password"
             style="@style/EditTextStyle"
             android:layout_width="match_parent"
@@ -127,7 +127,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <com.paper.boat.zrdx.widget.ScaleImageView
+        <com.paper.boat.tv.widget.ScaleImageView
             android:id="@+id/iv_login_qq"
             android:layout_width="35dp"
             android:layout_height="35dp"
@@ -139,7 +139,7 @@
             android:src="@drawable/ic_login_qq"
             app:scaleRatio="1.2" />
 
-        <com.paper.boat.zrdx.widget.ScaleImageView
+        <com.paper.boat.tv.widget.ScaleImageView
             android:id="@+id/iv_login_wx"
             android:layout_width="35dp"
             android:layout_height="35dp"

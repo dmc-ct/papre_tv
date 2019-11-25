@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.paper.boat.dream">
+    package="com.paper.boat.tv">
     <!-- 允许应用程序改变网络状态 -->
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" /> <!-- 允许应用程序改变WIFI连接状态 -->
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /> <!-- 网络权限 -->
@@ -38,7 +38,7 @@
         tools:ignore="ProtectedPermissions" />
 
     <application
-        android:name="com.paper.boat.zrdx.InitApp"
+        android:name="com.paper.boat.tv.InitApp"
         android:allowBackup="true"
         android:icon="@mipmap/dream_ico"
         android:label="@string/app_name"
@@ -49,27 +49,26 @@
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning,UnusedAttribute"
         tools:replace="android:icon,android:theme,android:roundIcon">
-        <activity android:name="com.paper.boat.zrdx.ui.actvity.apply.ApplicationDetailsActivity"></activity>
-        <activity android:name="com.paper.boat.zrdx.ui.actvity.util.SqlActivity" /> <!-- 防止切屏后重新开始生命周期 -->
+        <activity android:name="com.paper.boat.tv.ui.actvity.apply.ApplicationDetailsActivity"></activity>
+        <activity android:name="com.paper.boat.tv.ui.actvity.util.SqlActivity" /> <!-- 防止切屏后重新开始生命周期 -->
         <!-- android:configChanges="orientation|keyboardHidden|navigation|screenSize" -->
         <!-- 允许硬件加速 防止视频卡顿 -->
         <!-- android:hardwareAccelerated="true" -->
         <!-- 设定该活动的方向  允许横屏显示 -->
         <!-- android:screenOrientation="portrait" -->
         <activity
-            android:name="com.paper.boat.zrdx.ui.actvity.web.WebActivity"
+            android:name="com.paper.boat.tv.ui.actvity.web.WebActivity"
             android:configChanges="orientation|keyboardHidden|navigation|screenSize"
             android:hardwareAccelerated="true"
             android:screenOrientation="portrait" />
-        <activity android:name="com.paper.boat.zrdx.ui.actvity.living.LivingPaymentActivity" />
-        <activity android:name="com.paper.boat.zrdx.ui.actvity.defray.PayDemoActivity" />
-        <activity android:name="com.paper.boat.zrdx.ui.actvity.personal.AboutActivity" />
-        <activity android:name="com.paper.boat.zrdx.ui.actvity.personal.SettingActivity" />
-        <activity android:name="com.paper.boat.zrdx.ui.actvity.login.PasswordResetActivity" />
-        <activity android:name="com.paper.boat.zrdx.ui.actvity.login.PasswordForgetActivity" />
-        <activity android:name="com.paper.boat.zrdx.ui.actvity.login.RegisterActivity" />
-        <activity android:name="com.paper.boat.zrdx.MainActivity" />
-        <activity android:name="com.paper.boat.zrdx.ui.actvity.login.LoginActivity" /> <!-- 适配华为（huawei）刘海屏 -->
+        <activity android:name="com.paper.boat.tv.ui.actvity.defray.PayDemoActivity" />
+        <activity android:name="com.paper.boat.tv.ui.actvity.personal.AboutActivity" />
+        <activity android:name="com.paper.boat.tv.ui.actvity.personal.SettingActivity" />
+        <activity android:name="com.paper.boat.tv.ui.actvity.login.PasswordResetActivity" />
+        <activity android:name="com.paper.boat.tv.ui.actvity.login.PasswordForgetActivity" />
+        <activity android:name="com.paper.boat.tv.ui.actvity.login.RegisterActivity" />
+        <activity android:name="com.paper.boat.tv.MainActivity" />
+        <activity android:name="com.paper.boat.tv.ui.actvity.login.LoginActivity" /> <!-- 适配华为（huawei）刘海屏 -->
         <meta-data
             android:name="android.notch_support"
             android:value="true" /> <!-- 适配小米（xiaomi）刘海屏 -->
@@ -78,7 +77,7 @@
             android:value="portrait|landscape" />
 
         <activity
-            android:name="com.paper.boat.zrdx.ui.actvity.login.GuideFragmentActivity"
+            android:name="com.paper.boat.tv.ui.actvity.login.GuideFragmentActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -86,12 +85,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.paper.boat.zrdx.ui.actvity.util.CrashActivity" />
+        <activity android:name="com.paper.boat.tv.ui.actvity.util.CrashActivity" />
         <activity
-            android:name="com.paper.boat.zrdx.ui.actvity.util.SelectPositionActivity"
+            android:name="com.paper.boat.tv.ui.actvity.util.SelectPositionActivity"
             android:hardwareAccelerated="true" />
-        <activity android:name="com.paper.boat.zrdx.util.image.ImageBrowseActivity" />
-        <activity android:name="com.paper.boat.zrdx.ui.actvity.defray.H5PayDemoActivity" /> <!-- 高德地图 -->
+        <activity android:name="com.paper.boat.tv.util.image.ImageBrowseActivity" />
+        <activity android:name="com.paper.boat.tv.ui.actvity.defray.H5PayDemoActivity" /> <!-- 高德地图 -->
         <!-- 高德地图 -->
         <meta-data
             android:name="com.amap.api.v2.apikey"

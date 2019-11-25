@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <com.paper.boat.zrdx.view.edit.SmartTextView
+        <com.paper.boat.tv.view.edit.SmartTextView
             android:id="@+id/tv_time_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -33,21 +33,21 @@
             android:paddingTop="15dp"
             android:paddingBottom="5dp">
 
-            <com.paper.boat.zrdx.widget.LoopView
+            <com.paper.boat.tv.widget.LoopView
                 android:id="@+id/lv_time_hour"
                 android:layout_width="0px"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:lv_textSize="18sp" />
 
-            <com.paper.boat.zrdx.widget.LoopView
+            <com.paper.boat.tv.widget.LoopView
                 android:id="@+id/lv_time_minute"
                 android:layout_width="0px"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:lv_textSize="18sp" />
 
-            <com.paper.boat.zrdx.widget.LoopView
+            <com.paper.boat.tv.widget.LoopView
                 android:id="@+id/lv_time_second"
                 android:layout_width="0px"
                 android:layout_height="wrap_content"
@@ -67,7 +67,7 @@
             android:layout_height="48dp"
             android:orientation="horizontal">
 
-            <com.paper.boat.zrdx.view.edit.SmartTextView
+            <com.paper.boat.tv.view.edit.SmartTextView
                 android:id="@+id/tv_time_cancel"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

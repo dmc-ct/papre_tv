@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.paper.boat.zrdx.ui.actvity.web.WebActivity">
+    tools:context="com.paper.boat.tv.ui.actvity.web.WebActivity">
 
     <com.hjq.bar.TitleBar
         android:layout_width="wrap_content"

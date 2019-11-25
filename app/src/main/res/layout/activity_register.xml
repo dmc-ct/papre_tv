@@ -59,7 +59,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1">
 
-                    <com.paper.boat.zrdx.widget.RegexEditText
+                    <com.paper.boat.tv.widget.RegexEditText
                         android:id="@+id/et_register_phone"
                         style="@style/EditTextStyle"
                         android:layout_width="match_parent"
@@ -75,7 +75,7 @@
                         android:layout_gravity="bottom" />
                 </FrameLayout>
 
-                <com.paper.boat.zrdx.view.button.CountdownView
+                <com.paper.boat.tv.view.button.CountdownView
                     android:id="@+id/cv_register_countdown"
                     style="@style/CountdownViewStyle" />
             </LinearLayout>
@@ -94,7 +94,7 @@
 
             <View style="@style/HorizontalLineStyle" />
 
-            <com.paper.boat.zrdx.view.edit.PasswordEditText
+            <com.paper.boat.tv.view.edit.PasswordEditText
                 android:id="@+id/et_register_password1"
                 style="@style/EditTextStyle"
                 android:layout_width="match_parent"
@@ -106,7 +106,7 @@
 
             <View style="@style/HorizontalLineStyle" />
 
-            <com.paper.boat.zrdx.view.edit.PasswordEditText
+            <com.paper.boat.tv.view.edit.PasswordEditText
                 android:id="@+id/et_register_password2"
                 style="@style/EditTextStyle"
                 android:layout_width="match_parent"

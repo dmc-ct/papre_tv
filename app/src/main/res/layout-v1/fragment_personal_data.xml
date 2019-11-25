@@ -49,7 +49,7 @@
 
     </FrameLayout>
 
-    <com.paper.boat.zrdx.view.layout.SettingBar
+    <com.paper.boat.tv.view.layout.SettingBar
         android:id="@+id/sb_person_data_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -58,7 +58,7 @@
         app:bar_leftText="@string/personal_data_id"
         app:bar_rightText="23138" />
 
-    <com.paper.boat.zrdx.view.layout.SettingBar
+    <com.paper.boat.tv.view.layout.SettingBar
         android:id="@+id/sb_person_data_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -66,7 +66,7 @@
         app:bar_rightHint="@string/personal_data_name_hint"
         app:bar_rightText="Android" />
 
-    <com.paper.boat.zrdx.view.layout.SettingBar
+    <com.paper.boat.tv.view.layout.SettingBar
         android:id="@+id/sb_person_data_address"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -75,7 +75,7 @@
         app:bar_rightIcon="@mipmap/ico_go_black"
         app:bar_rightText="广东省广州市天河区" />
 
-    <com.paper.boat.zrdx.view.layout.SettingBar
+    <com.paper.boat.tv.view.layout.SettingBar
         android:id="@+id/sb_person_data_phone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -84,14 +84,14 @@
         app:bar_rightHint="@string/personal_data_phone_hint"
         app:bar_rightIcon="@mipmap/ico_go_black" />
 
-    <com.paper.boat.zrdx.view.layout.SettingBar
+    <com.paper.boat.tv.view.layout.SettingBar
         android:id="@+id/sb_person_data_alms"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:bar_leftText="请吃辣条"
         app:bar_rightIcon="@mipmap/ico_go_black" />
 
-    <com.paper.boat.zrdx.view.layout.SettingBar
+    <com.paper.boat.tv.view.layout.SettingBar
         android:id="@+id/sb_person_data_system"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

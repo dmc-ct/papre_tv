@@ -28,7 +28,7 @@
             app:elevation="0px">
 
             <!--X折叠工具栏布局-->
-            <com.paper.boat.zrdx.widget.XCollapsingToolbarLayout
+            <com.paper.boat.tv.widget.XCollapsingToolbarLayout
                 android:id="@+id/ctl_test_bar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -103,7 +103,7 @@
 
                 </com.hjq.bar.TitleBar>
 
-            </com.paper.boat.zrdx.widget.XCollapsingToolbarLayout>
+            </com.paper.boat.tv.widget.XCollapsingToolbarLayout>
 
         </com.google.android.material.appbar.AppBarLayout>
 

@@ -9,7 +9,7 @@
     android:paddingTop="5dp"
     android:paddingBottom="15dp">
 
-    <com.paper.boat.zrdx.widget.ScaleImageView
+    <com.paper.boat.tv.widget.ScaleImageView
         android:id="@+id/iv_share_image"
         android:layout_width="50dp"
         android:layout_height="50dp"
